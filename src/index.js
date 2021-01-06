@@ -4,10 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.css'
+import PRODUCTS from './Products'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App products={PRODUCTS}/>
   </React.StrictMode>,
   document.getElementById('root')
 );
