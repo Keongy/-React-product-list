@@ -8,7 +8,7 @@ import PRODUCTS from './Products'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App products={PRODUCTS}/>
+    <App products={PRODUCTS} />
   </React.StrictMode>,
   document.getElementById('root')
 );

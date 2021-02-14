@@ -1,5 +1,6 @@
 import React from 'react';
 import ProductRow from './ProductRow';
+import './App.css'
 
 class ProductTable extends React.Component {
     constructor(props) {
@@ -13,11 +14,11 @@ class ProductTable extends React.Component {
     render() {
         const { products, textFilter, inStock } = this.props
         return (
-            <table className="table table-bordered mt-3">
+            <table className="table table-bordered  mt-3">
                 <thead>
                     <tr>
-                        <th>Name</th>
-                        <th>Price</th>
+                        <th><h4>Name</h4></th>
+                        <th><h4>Price</h4></th>
                     </tr>
                 </thead>
                 <ProductRow inStock={inStock} textFilter={textFilter} products={products} />

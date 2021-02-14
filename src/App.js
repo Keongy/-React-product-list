@@ -28,10 +28,12 @@ class App extends React.Component {
     const { products } = this.props
     const textFilter = this.state.textFilter
     return (
-      <div className="row justify-content-center m-0 mt-5">
-        <div className="col-3">
-          <SearchBarInput inStock={this.state.inStock} inStockOnly={this.handleChangeInStock} textFilter={this.onChangeTextFilter} />
-          <ProductTable inStock={this.state.inStock} textFilter={textFilter} products={products} />
+      <div className="container align-items-center">
+        <div className="row justify-content-center align-items-center min-vh-100 m-0">
+          <div className="col-4 wrapper p-5">
+            <SearchBarInput inStock={this.state.inStock} inStockOnly={this.handleChangeInStock} textFilter={this.onChangeTextFilter} />
+            <ProductTable inStock={this.state.inStock} textFilter={textFilter} products={products} />
+          </div>
         </div>
       </div>
     )

@@ -1,0 +1,32 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right top, #051937, #00446b, #00738b, #00a38e, #52cf78);
+}
+
+.wrapper {
+    background-color: rgba(255, 255, 255, .4);
+    box-shadow: 3px 3px 10px rgb(51, 51, 51);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.text-shadow {
+    text-shadow: 0px 0px 8px rgba(255, 255, 255, .7);
+}
+
+.text-shadow-red {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .7);
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.bg-input-transparent {
+    background-color: rgba(255, 255, 255, .7)!important;
+}

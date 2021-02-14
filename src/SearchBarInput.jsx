@@ -1,4 +1,5 @@
 import React from 'react';
+import './App.css'
 
 class SearchBarInput extends React.Component {
     constructor(props) {
@@ -24,7 +25,7 @@ class SearchBarInput extends React.Component {
         return (
             <div className="form">
                 <div className="form-group">
-                    <input type="text" className="form-control" placeholder="Search..." onChange={this.handleChange} />
+                    <input type="text" className="form-control bg-input-transparent" placeholder="Search..." onChange={this.handleChange} />
                 </div>
                 <div className="form-check">
                     <input type="checkbox" name="" id="" className="form-check-input" checked={inStock} onChange={this.handleInStockChange} />
