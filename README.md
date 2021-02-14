@@ -1,6 +1,8 @@
 # Product list
 
-explain...
+
+An application that allows you to filter products based on if they are available.
+A search and sort field.
 
 ### `npm start`
 
